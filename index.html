@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивный справочник СГК</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-info">
+                <div class="logo">
+                    <img src="dst/logo.svg" alt="logotype">
+                </div>
+                <div class="header-text">
+                    <h1 class="header-title">Интерактивный <br> справочник колледжа</h1>
+                    <span class="header-subtitle">Карта, корпуса, преподаватели, учебные аудитории и <br> общежития –
+                        всё в одном месте!</span>
+                </div>
+                <div class="btn-block">
+                    <input class="search-input" type="text" placeholder="Введите номер аудитории">
+                    <button class="search-btn">Найти</button>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe class="map-frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4020.8573902408025!2d50.09646139631173!3d53.185278516186976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x989b07630dc4753!2z0JPQkNCf0J7QoyDQodCeICLQodCw0LzQsNGA0YHQutC40Lkg0LPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INC60L7Qu9C70LXQtNC2Ig!5e0!3m2!1sru!2sru!4v1610884771000!5m2!1sru!2sru"
+                frameborder="0" style="border:0;" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="container">
+            <ul class="navigation-list">
+                <li class="navigation-item select"> <a href="#" class="navigation-link">Карта корпусов</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">Аудитории</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">Общежития</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">Преподаватели</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">Поиск по номеру телефона</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">Администрация колледжа</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">Партнеры</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">Специальности</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">Специальности</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="button-block">
+                <button class="main-btn active">Корпус №1</button>
+                <button class="main-btn">Корпус №2</button>
+                <button class="main-btn">Корпус №3</button>
+                <button class="main-btn">Корпус №4</button>
+                <button class="main-btn">Корпус №5</button>
+                <button class="main-btn">Общежитие №1</button>
+                <button class="main-btn">Общежитие №2</button>
+            </div>
+            <div class="main-map">
+                <iframe class="main-map-frame"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4020.8573902408025!2d50.09646139631173!3d53.185278516186976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x989b07630dc4753!2z0JPQkNCf0J7QoyDQodCeICLQodCw0LzQsNGA0YHQutC40Lkg0LPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INC60L7Qu9C70LXQtNC2Ig!5e0!3m2!1sru!2sru!4v1610884771000!5m2!1sru!2sru"
+                    frameborder="0"  allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-text">
+                <div class="footer-info">
+                    443099 Самарская область, г. Самара ул. Молодогвардейская 80, <br>
+                    тел: (846)-332-35-36
+                </div>
+                <div class="footer-developer">
+                    Сайт разработан студентами и сотрудниками колледжа
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.net.min.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+
+</html>

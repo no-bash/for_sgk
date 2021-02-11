@@ -1,0 +1,150 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    color: #ffffff;
+    position: relative;
+}
+
+.header-info{
+    padding-top: 50px;
+}
+.header-title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 25px;
+    margin-top: 60px;
+}
+.header-subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+.search-input{
+    margin-top: 35px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding: 15px 30px;
+    margin-right: 15px;
+}
+.search-btn{
+    border: none;
+    background: #FF0F00;
+    border-radius: 5px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px 55px;
+}
+
+.map{
+    position: absolute;
+    left: 1116px;
+    top: 0px;
+}
+.map-frame{
+    width: 804px;
+    border: none;
+    height: 518px;
+}
+.navigation{
+    margin-top: 80px;
+    height: 144px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.navigation-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navigation-item{
+    list-style: none;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+.navigation-item.select{
+    border-bottom: 3px solid #FF0F00;
+}
+.navigation-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+
+.button-block{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.main-btn{
+    border: none;
+    background: #E1E1E1;
+    border-radius: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 10px 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.main-btn.active{
+    background: #0F2161;
+    color: #ffffff;
+}
+
+.main-map-frame{
+    width: 1167px;
+    height: 491px;
+    border-radius: 18px;
+}
+
+.footer{
+    background-color: #142885;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.map-frame{
+    max-width: 780px;
+    height:518px;
+}
